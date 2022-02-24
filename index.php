@@ -8,6 +8,7 @@ spl_autoload_register(function ($className) {
     include './classes/' . $className . '.php';
 });
 
+require __DIR__.'/vendor/autoload.php';
 require './includes/head.php';
 require './includes/main.php';
 require './includes/footer.php';
